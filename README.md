@@ -1,5 +1,5 @@
-# CheynePaulSincioco-Sincioco-Cheyne-Paul-DG.--PA_1
-__PA#1 INTRODUCTION TO PYTHON PROGRAMMING__
+__Cheyne Paul DG. Sincioco-2ECEA_PA-1__
+# __PA#1 INTRODUCTION TO PYTHON PROGRAMMING__
 
 __About the Programming Assignment__
 
