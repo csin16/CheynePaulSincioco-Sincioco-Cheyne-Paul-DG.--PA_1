@@ -15,4 +15,4 @@ Ouput: ehllo
 ```
 2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:__
 
-__Code Description__: This problem also shows a use of a user-defined function. The code displays the use of a dictionary to store data in pairs. With the use of 
+__Code Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary to store data in pairs. With the use of .split() to split each word in a phrase, and an  if-else loop to sort statements in the phrase that fit the condition.
