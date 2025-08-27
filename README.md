@@ -8,11 +8,23 @@ This assignment aims to hone our programming skills in basic coding in Python. T
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
 
 __Code Description__: This problem shows the use of a user-defined function and the code .append() and .sort(). With the use of a list, each element that was separated and sorted was joined together by the code ' '.join(), which made the letters alphabetically arranged.
-__Example__
-```
-_nput: Hello
-Ouput: ehllo
-```
-2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:__
 
-__Code Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary to store data in pairs. With the use of .split() to split each word in a phrase, and an  if-else loop to sort statements in the phrase that fit the condition.
+__Example:__
+```
+Input: Hello
+Output: ehllo
+```
+2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:__
+
+__Code Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary to store data in pairs. With the use of .split() to split each word in a phrase, an  if-else loop to sort statements in the phrase that fit the condition, and lastly 
+' '.join was used to combine the designated output.
+
+__Example:__
+```
+Input: I am Sad
+Output: I am :(
+```
+
+3. __UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.__
+
+__Code Description__: This problem shows the use of a list. The code illustrates
