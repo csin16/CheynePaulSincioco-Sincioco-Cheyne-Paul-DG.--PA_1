@@ -27,4 +27,4 @@ Output: I am :(
 
 3. __UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.__
 
-__Code Description__: This problem shows the use of a list. The code illustrates
+__Code Description__: This problem shows the use of a list. The code used was .split() in order to separate each number, and .()sort to arrange them. 
