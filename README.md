@@ -32,5 +32,10 @@ __Code Description__: This problem shows the use of a list. The code used was .s
 __Example:__
 ```
 Input: 2,1,3,5,4,2
-Output: First: 1, Middle: ['2','2','3','4'], Last: 5
+Output: First: 1, Middle: ['2', '2' ,'3' ,'4'], Last: 5
 ```
+__Lessons Learned__:
+
+This programming assignment taught me basic coding in Python. It taught me to make use of different predefined data structures, such as lists, dictionaries, and input, and create user-defined functions to apply to diverse problems.
+
+__Tech(s) Used__: Jupyter Notebook
