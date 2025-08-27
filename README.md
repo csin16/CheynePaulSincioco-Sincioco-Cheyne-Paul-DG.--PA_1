@@ -32,5 +32,5 @@ __Code Description__: This problem shows the use of a list. The code used was .s
 __Example:__
 ```
 Input: 2,1,3,5,4,2
-Output: First: [1], Middle: [2,2,3,4], Last: [5]
+Output: First: 1, Middle: ['2','2','3','4'], Last: 5
 ```
