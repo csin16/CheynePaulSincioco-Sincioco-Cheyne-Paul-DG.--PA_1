@@ -7,7 +7,7 @@ This assignment aims to hone our programming skills in basic coding in Python. T
 
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
 
-__Code Description__: This problem shows the use of a user-defined function and the code _.append()_ and _.sort()._ With the use of the code _word = []_ as a list, then each element that was separated using the code _for x in string_, inserted using _.append()_, sorted using _.sort()._, and  was joined together by the code _' '.join()_, which made the letters alphabetically arranged.
+__Description__: This problem shows the use of a user-defined function and the code _.append()_ and _.sort()._ With the use of the code _word = []_ as a list, each element was separated using the code _for x in string_, inserted using _.append()_, sorted using _.sort()._, and  was joined together by the code _' '.join()_, which made the letters alphabetically arranged.
 
 __Example:__
 ```
@@ -16,8 +16,8 @@ Output: ehllo
 ```
 2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:__
 
-__Code Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary to store data in pairs. With the use of .split() to split each word in a phrase, an  if-else loop to sort statements in the phrase that fit the condition, and lastly 
-' '.join was used to combine the designated output.
+__Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary _emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}_ to store data in pairs. With the use of _.split()_ to split each word in the phrase and was stored in words, then an  if-else loop to sort statements in the phrase that fit the condition, and lastly 
+_' '.join_ was used to combine the designated output.
 
 __Example:__
 ```
@@ -27,7 +27,7 @@ Output: I am :(
 
 3. __UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.__
 
-__Code Description__: This problem shows the use of a list. The code used was .split() in order to separate each number, and .sort () to arrange them. Then, the output was arranged by first, middle, and last. 
+__Description__: This problem shows the use of a list. The code used was .split() in order to separate each number, and .sort () to arrange them. Then, the output was arranged by first, middle, and last. 
 
 __Example:__
 ```
