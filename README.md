@@ -7,7 +7,7 @@ This assignment aims to hone our programming skills in basic coding in Python. T
 
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
 
-__Code Description__: This problem shows the use of a user-defined function and the code .append() and .sort(). With the use of a list, each element that was separated and sorted was joined together by the code ' '.join(), which made the letters alphabetically arranged.
+__Code Description__: This problem shows the use of a user-defined function and the code _.append()_ and _.sort()._ With the use of the code _word = []_ as a list, then each element that was separated using the code _for x in string_, inserted using _.append()_ , sorted using _.sort()._, and  was joined together by the code ' '.join(), which made the letters alphabetically arranged.
 
 __Example:__
 ```
