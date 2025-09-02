@@ -1,13 +1,13 @@
-__Cheyne Paul DG. Sincioco-2ECEA_PA-1__
-# __PA#1 INTRODUCTION TO PYTHON PROGRAMMING__
+_Cheyne Paul DG. Sincioco-2ECEA_PA-1_
+_PA#1 INTRODUCTION TO PYTHON PROGRAMMING_
 
-__About the Programming Assignment__
+# __About the Programming Assignment__
 
 This assignment aims to hone our programming skills in basic coding in Python. This task requires us to create user-defined functions and apply them to different problems. 
 
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
 
-__Description__: This problem shows the use of a user-defined function and the code _.append()_ and _.sort()._ With the use of the code _word = []_ as a list, each element was separated using the code _for x in string_, inserted using _.append()_, sorted using _.sort()._, and  was joined together by the code _' '.join()_, which made the letters alphabetically arranged.
+__Description__: This problem shows the use of a user-defined function and the code __.append()__ and __.sort().__ With the use of the code __word = []__ as a list, each element was separated using the code __for x in string__, inserted using __.append()__, sorted using __.sort().__, and  was joined together by the code __' '.join()__, which made the letters alphabetically arranged.
 
 __Example:__
 ```
@@ -16,8 +16,8 @@ Output: ehllo
 ```
 2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:__
 
-__Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary _emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}_ to store data in pairs. With the use of _.split()_ to split each word in the phrase and was stored in words, then an  if-else loop to sort statements in the phrase that fit the condition, and lastly 
-_' '.join_ was used to combine the designated output.
+__Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary __emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}__ to store data in pairs. With the use of __.split()__ to split each word in the phrase and was stored in words, then an  if-else loop to sort statements in the phrase that fit the condition, and lastly 
+__' '.join__ was used to combine the designated output.
 
 __Example:__
 ```
