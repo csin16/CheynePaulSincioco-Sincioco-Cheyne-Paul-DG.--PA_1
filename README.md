@@ -5,7 +5,7 @@ _PA#1 INTRODUCTION TO PYTHON PROGRAMMING_
 # __About the Programming Assignment__
 
 This assignment aims to hone our programming skills in basic coding in Python. This task requires us to create user-defined functions and apply them to different problems. 
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
    
 __Code__
@@ -68,6 +68,7 @@ __Example:__
 Input: 2,1,3,5,4,2
 Output: First: 1, Middle: ['2', '2' ,'3' ,'4'], Last: 5
 ```
+-------------------------------------------------------------------------------------------------------------------------------------------
 __Lessons Learned__:
 
 This programming assignment taught me basic coding in Python. It taught me to make use of different predefined data structures, such as lists, dictionaries, and input, and create user-defined functions to apply to diverse problems.
