@@ -9,7 +9,7 @@ This assignment aims to hone our programming skills in basic coding in Python. T
 -------------------------------------------------------------------------------------------------------------------------------------------
 1. __ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.__
    
-__Code__
+__Code:__
 ```
 word = []
 def alphabet_soup(string):
@@ -30,7 +30,7 @@ Output: ehllo
 -------------------------------------------------------------------------------------------------------------------------------------------
 2. __EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:__
    
-__Code__
+__Code:__
 ```
 emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}
 new = []
@@ -54,7 +54,7 @@ Output: I am :(
 -------------------------------------------------------------------------------------------------------------------------------------------
 3. __UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.__
 
-__Code__
+__Code:__
 ```
 inp = input("Enter Numbers Separated by a Comma: ")
 list = inp.split(",")
