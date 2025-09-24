@@ -11,18 +11,43 @@ This assignment aims to hone our programming skills in basic coding in Python. T
    
 __Code:__
 ```
-word = []
-def alphabet_soup(string):
-    for x in string:
-        word.append(x) 
-    word.sort()
-    print (''.join(word))
-inp = input("Enter a Word: ")
-alphabet_soup(inp)
+word = []      #List to store all letters
 ```
-__Description__: This problem shows the use of a user-defined function and the code __.append()__ and __.sort().__ With the use of the code __word = []__ as a list, each element was separated using the code __for x in string__, inserted using __.append()__, sorted using __.sort().__, and  was joined together by the code __' '.join()__, which made the letters alphabetically arranged.
+The code __word = []__ is a list to store all letters in the word.
 
-__Example:__
+__Code:__
+```
+def alphabet_soup(string):   #Function that takes a word and arrange it alphabetically
+```
+Function to alphabetically arrange the word.
+
+__Code:__
+```
+    for x in string:       #A loop that stops to go through every letter in the word
+```
+A loop that stops if all letters in the word are read.
+
+__Code:__
+``` 
+        word.append(x)    #Puts all the letters into the list 
+    word.sort()           #Sorts it alphabetically 
+```
+The letters in the word were inserted using __.append()__, sorted using __.sort().__.
+
+__Code:__
+```
+    print (''.join(word))    #Combines all the letters in the list
+```
+The letters in the list were joined together by the code __' '.join()__, 
+
+__Code:__
+```
+inp = input("Enter a Word: ")      #Takes the user's input
+alphabet_soup(inp)                 #Puts the input into the function
+```
+The code __input()__ takes the user's input and puts it in the function.
+
+__Example Output:__
 ```
 Input: Hello
 Output: ehllo
@@ -32,21 +57,53 @@ Output: ehllo
    
 __Code:__
 ```
-emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}
-new = []
-def emotify(phrase):
-    words = phrase.split()
-    for x in words:
-        if x in emojis:
-            new.append(emojis.get(x))
-        else:
-            new.append(x)
-    print(' '.join(new))
-inp = input("Enter a Phrase: ")
+emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}      #Dictionary to store data in pairs
+new = []                                                                  #Storage for the new phrase with the emoticon
 ```
-__Description__: This problem also shows the use of a user-defined function. The code displays the use of a dictionary __emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad" : ">:("}__ to store data in pairs. With the use of __.split()__ to split each word in the phrase and was stored in words, then an  if-else loop to sort phrases that will eventually fit the condition, and lastly __' '.join__ was used to combine the designated output.
+The code displays the use of a dictionary __emojis = {"Smile" : ":)", "Grin": ":D", "Sad": ":((", "Mad": ">:("}__ to store data in pairs. Also, the list __new=[]__ was initialized to store the new phrase with the emoticon.
 
-__Example:__
+__Code:__
+```
+def emotify(phrase):             #Function to emotify the phrase
+```
+This is a user-defined function that takes the user's input in order to achieve a certain result.
+
+__Code:__
+```
+    words = phrase.split()     #Splits every word in the phrase
+```
+The code shows the use of __.split()__ to split each word in the phrase, and store it in the variable words.
+
+__Code:__
+```
+    for x in words:         #Stops if every word was used
+```
+To repeat the process, a for loop was used to take each word in the variable words into the function.
+
+__Code:__
+```
+        if x in emojis:                               #Condition if the word was in the dictionary
+            new.append(emojis.get(x))                 #Gets its corresponding pair
+        else:
+            new.append(x)                             #Return the words that did not fit the condition             
+```
+An if-else loop was used to sort phrases. If the word in the variable words fits a word in the dictionary, the corresponding pair will be displayed as an emoticon. Then all words that do not fit into the condition will be the same.
+
+__Code:__
+```
+    print(' '.join(new))                      #Joins every word in the dictionary
+ ```
+The code __' '.join__ was used to combine the designated output since they are in a list with commas separating them.
+
+__Code:__
+```
+inp = input("Enter a Phrase: ")            #Takes the user's input
+emotify(inp)                               #Takes the input the put it in the function
+
+```
+Lastly, the function needs an input. The code __input()__ will take the user's input, then it will be put in the emotify function.
+
+__Example Output:__
 ```
 Input: I am Sad
 Output: I am :(
@@ -56,15 +113,25 @@ Output: I am :(
 
 __Code:__
 ```
-inp = input("Enter Numbers Separated by a Comma: ")
-list = inp.split(",")
-list.sort()
-first, *middle, last = list
-print("First:", first, "     Middle:", middle, "     Last:", last)
+inp = input("Enter Numbers Separated by a Comma: ")   #Takes integers from the user input and stores it to variable inp
 ```
-__Description__: This problem shows the use of a list. The code used was __.split()__ in order to separate each number, and __.sort ()__ to sort them, and __first, *middle, last = list__ to arrange them. Then, the output  was displayed as first, middle, and last. 
+The input was taken and was stored in the variable inp.
 
-__Example:__
+__Code:__
+```
+list = inp.split(",")      #Splits the integers from variable inp and stores them in
+list.sort()                #Sorts the list to arrange it in order
+```
+Then inp was split using the code __.split()__ and was stored in a list. To arrange it, __.sort()__ was used.
+
+__Code:__
+```
+first, *middle, last = list                                               #Stores the value of list to first,middle, and last
+print("First:", first, "     Middle:", middle, "     Last:", last)        #Displays the integers in arranged order
+```
+And to arrange them, variables __first, *middle, last__ were stored to __list__, which was used. Then, the output  was displayed as first, middle, and last. 
+
+__Example Output:__
 ```
 Input: 2,1,3,5,4,2
 Output: First: 1, Middle: ['2', '2' ,'3' ,'4'], Last: 5
